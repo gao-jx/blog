@@ -1,22 +1,23 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <nav-bar></nav-bar>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from 'mod/NavBar'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    NavBar
   }
 }
 </script>
 
-<style>
+<style scoped lang="scss">
+@import "src/style/dark/index";
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

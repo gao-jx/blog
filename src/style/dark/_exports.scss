@@ -1,0 +1,75 @@
+@at-root :root {
+  --red: $red;
+  --green: $green;
+}
+body {
+  $dark-grey: $background;
+  $special-grey: $black-bis;
+  $special-grey: #303B49;
+  $pure-white: $white;
+
+  // background
+  --default-bg: $black;
+  --darken-black: darken($black, 2%);
+  --bg-black: rgba(221,221,221,0.15);
+  --block-bg: $dark-grey;
+  --fade-block-bg: fade($dark-grey, 90%);
+  --special-bg: $special-grey;
+
+  // color
+  --active-color: $yellow;
+  --fade-active-color: fade($yellow, 50%);
+  --default-font-color: $grey-light;
+  --fade-color: fade($white, 50%);
+
+  --special-color: $special-grey;
+  --revert-color: black;
+  --border-special-color: #29323f;
+  --lighten-special-color: lighten($special-grey, 10%);
+
+  --btn-color: $dark;
+  --chart-color: rgba(48, 59, 75, 0.7);
+  --mask-bg: rgba(0, 0, 0, 0.5);
+  --hover-color: rgba(93, 109, 129, 0.3);
+  --light-grey: #495364;
+  --icon-color:$white;
+  --border-color: $border;
+  --light-grey: #838D9E;
+  --ask-color: $red;
+  --bid-color: #218DF2;
+  --grey: #616A79;
+  --blue-sky: #218DF2;
+  --body-background-color: $body-background-color;
+  --account-select-color: transparentize($blue-light, 0.8);
+  --white-font-color: $white;
+
+
+  // kchart
+  --lineColor: $white;
+  --axisLineColor: $special-grey;
+  --preCloseFontColor: $white;
+  --gradientColor: rgb(10, 180, 250);
+  --preCloseLineColor: #535360;
+  --crosshairColor: $pure-white;
+  --crossLineColor: $white;
+  --crossFontColor: $black;
+  // 菜单
+  --logo-bg: $yellow;
+  --menu-color: $yellow;
+  --menu-bg: $black;
+  // other
+  --drop-list: #495364;
+  --focus-btn: #495364;
+  --focus-btn-color: $special-grey;
+  --btn-bg: $grey;
+  --btn-hover-border: #5d6d81;
+  --divide-color: $black;
+  --hand-bg: #495364;
+  --hand-color: $special-grey;
+  --switch-list: $grey;
+  // 柱状图
+  --volume-border: black;
+  --boll-top: auto;
+  //select-box
+  --drop-bg: $dropdown-content-background-color;
+}

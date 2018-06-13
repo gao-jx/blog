@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  overflow: hidden;
+  background-color: unset;
+  font-size: 14px;
+}
+body {
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+}
+[v-cloak] {
+  display: none;
+}

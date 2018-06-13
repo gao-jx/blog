@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/standard"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  }
+}

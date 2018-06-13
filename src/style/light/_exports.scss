@@ -1,0 +1,66 @@
+@at-root :root {
+  --red: $red;
+  --green: $green;
+}
+body {
+  $dark-grey: $background;
+  $special-grey: $black-bis;
+  $special-white: $white-bis;
+  $other-white: $white-ter;
+  $light-white: $grey-lighter;
+  $pure-white: $white;
+  $other-grey: $grey-light;
+
+  // background
+  --default-bg: #E6EBF0;
+  --darken-black: darken(#E6EBF0, 2%);
+  --bg-black: rgba(221,221,221,0.85);
+  --block-bg: $special-white;
+  --fade-block-bg: $special-white;
+  --special-bg: $other-white;
+
+  // color
+  --active-color: $orange;
+  --fade-active-color: fade($orange, 50%);
+  --default-font-color: $special-grey;
+  --fade-color: fade($special-grey, 50%);
+
+  --special-color: #E6EBF0;
+  --revert-color: white;
+  --border-special-color: $special-white;
+  --lighten-special-color: lighten(#E6EBF0, 10%);
+
+  --btn-color: $pure-white;
+  --chart-color: rgba(238,238,238,0.9);
+  --mask-bg: rgba(35, 44, 55, 0.2);
+  --hover-color: rgba(255, 255, 255, 0.3);
+  --light-grey: $grey-light;
+  --icon-color:#A0A9B3;
+
+  // kchart
+  --lineColor: $light-white;
+  --axisLineColor: $light-white;
+  --preCloseFontColor: #333333;
+  --gradientColor: rgb(10, 180, 250);
+  --preCloseLineColor: #8C8C8C;
+  --crosshairColor: #A0AAAF;
+  --crossLineColor: $special-grey;
+  --crossFontColor: $pure-white;
+  // 菜单
+  --logo-bg: $special-white;
+  --menu-color: $pure-white;
+  --menu-bg: $orange;
+  // other
+  --drop-list: $special-white;
+  --focus-btn: #A0AAAF;
+  --focus-btn-color: $pure-white;
+  --btn-bg: $white;
+  --btn-hover-border: $white;
+  --divide-color: $other-white;
+  --hand-bg: $other-grey;
+  --hand-color: $pure-white;
+  --switch-list: #A0AAAF;
+  // 柱状图
+  --volume-border: white;
+  --boll-top: $grey;
+}
