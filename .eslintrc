@@ -4,7 +4,7 @@
     "plugin:vue/essential",
     "@vue/standard"
   ],
-  "parser": "babel-eslint",
+  "parser": "vue-eslint-parser",
   "parserOptions": {
     "sourceType": "module",
     "allowImportExportEverywhere": true

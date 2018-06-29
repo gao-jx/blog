@@ -38,6 +38,7 @@ export default {
       const loading = this.$loading.open()
       await import(/* webpackChunkName: "theme-[request]" */ `src/style/${name}/`)
         .then(data => {
+          console.log(data)
           document.querySelector('html').setAttribute('theme', name)
         })
       loading.close()

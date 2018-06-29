@@ -1,11 +1,11 @@
 export default [{
   to: '/home',
-  icon: 'clock',
+  icon: 'home',
   name: 'nav.home',
   statsKey: 'maintab_stock'
 }, {
   to: '/about',
-  icon: 'clock',
+  icon: 'info',
   name: 'nav.about',
   statsKey: 'maintab_stock'
 }]

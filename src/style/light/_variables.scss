@@ -1,0 +1,92 @@
+$family-sans-serif: "PingFang SC", Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+
+$family-primary: $family-sans-serif;
+
+$black: #232c37;
+$black-bis: #28323f;
+$black-light: rgba(35, 44, 55, 0.5);
+$black-lighter: rgba(22, 27, 33, 0.8);
+
+$grey-darker: #303b4b;
+$grey-dark: #616a79;
+$grey: #838d9e;
+$grey-light: #ddd;
+$grey-lighter: #eee;
+
+$red: #ff4a4a;
+$yellow: #ffe100;
+$green: #3cc864;
+$orange: #eb6422;
+$blue: #218df2;
+$blue-light: #0ab4fa;
+$white: #dddddd;
+$dark: #222222;
+
+$background: $black-bis;
+$body-background-color: $black;
+$family-primary: $family-sans-serif;
+$border: $grey-darker;
+
+$text: $white-ter;
+$text-invert: findColorInvert($text);
+$text-light: $grey-lighter;
+$text-strong: $white-bis;
+
+$weight-light: 200;
+$weight-normal: 350;
+$weight-medium: 400;
+$weight-semibold: 500;
+$weight-bold: 700;
+
+$title-color: $grey-light;
+$subtitle-color: $grey;
+
+$link: $text-light;
+$link-invert: $text-invert;
+$link-hover: $text-strong;
+$link-hover-border: transparent;
+
+$button-color: $text;
+$button-background-color: $grey-dark;
+$button-disabled-background-color: $grey-light;
+$button-border-color: transparent;
+$button-active-border-color: transparent;
+$button-focus-border-color: transparent;
+$button-static-border-color: transparent;
+
+$box-background-color: $background;
+
+$modal-card-body-background-color: $background;
+
+$label-color: $text;
+$input-color: $text;
+$input-hover-border-color: $grey;
+$input-border-color: transparent;
+$input-focus-border-color: $yellow;
+$input-focus-box-shadow-size: 0 0 0 0.025em;
+$input-background-color: $background;
+$input-icon-color: $text;
+$input-icon-active-color: $yellow;
+
+$table-color: $text;
+$table-background-color: $body-background-color;
+$table-striped-row-even-background-color: $black-bis;
+$table-striped-row-even-hover-background-color: $black-ter;
+$table-cell-border: 1px solid $grey-dark;
+
+$card-color: $text;
+$card-background-color: $background;
+
+$navbar-item-color: $grey;
+//$navbar-dropdown-background-color: $background;
+
+$dropdown-content-background-color: $grey-darker;
+$dropdown-item-color: $text;
+$dropdown-item-hover-color: $yellow;
+$dropdown-item-hover-background-color: $black-lighter;
+$dropdown-item-active-color: $yellow;
+$dropdown-item-active-background-color: transparent;
+
+$pagination-color: $grey-light;
+$pagination-border-color: transparent;
+

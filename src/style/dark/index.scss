@@ -2,6 +2,7 @@
 @import '~bulma/sass/utilities/functions';
 
 [theme=dark] {
+  @import '_variables';
   @import '~bulma';
   @import '~buefy/src/scss/buefy';
   @import '_exports';

@@ -54,8 +54,8 @@ export default {
 <style scoped>
 body .icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1em;
+  height: 1em;
   fill: currentColor;
   vertical-align: inherit;
 }

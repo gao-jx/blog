@@ -19,11 +19,9 @@ export default {
 <style scoped lang="scss">
 @import "src/style/dark/index";
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--darken-black);
+  display: flex;
 }
 </style>
